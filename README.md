@@ -1,5 +1,8 @@
 # Technical-support-challenge
-In this challenge, I used JavaScript programming language and it contains two files; index.html and script.js
+In this challenge, I used JavaScript programming language. The repository contains; Allinone.html which as a standalone file contains HTML, CSS, and JavaScript. It would be the ideal file to download and test the functionality of the app without downloading any other additional files.The other files index.html and script.js go together, where 
+script.js is linked to index.html.
+
+# Functionality of the application.
 All the user needs to do is to click any of the three buttons depending on the issue the user is concerned about.
 The buttons include; 
   1. Pending deposit
