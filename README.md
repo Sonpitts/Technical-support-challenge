@@ -11,7 +11,7 @@ When the user clicks on the pending deposit button, it will prompt the user to;
     "Key the transaction code of the missing deposit?" 
 almost immediately it will also prompt; 
     "Key the phone number that transacted".
-After the user keys in the required details, the app will process and compare them with the backend app details 
+After the user keys in the required details, the app will 1st convert the entered transaction code to uppercase and compare both the transaction code and phone number with the backend app details. 
 (have used variables as indicated under comments in sript.js to compare the user details with)
 if the user details match/exists as in backend app details (variables as indicated under comments) the app will 
 notify; 
@@ -38,7 +38,7 @@ Where the number does not exist, the below notification pops up;
 After the button is clicked, it prompts the user to;
     "Enter pending bet ID?"
 The captured bet ID is verified if it exists under wonBets array (as captured under wonBets variables). If the bet ID
-exist below notification is populated;
+exist below notification pops up;
     "Congratulations on your winning ! your bet is settled."
 Where the bet ID does not exist under wonBets array, the below notification pops up;
     "Follow-up initiated! Check back later."
