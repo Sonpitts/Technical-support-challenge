@@ -39,6 +39,6 @@ After the button is clicked, it prompts the user to;
     "Enter pending bet ID?"
 The captured bet ID is verified if it exists under wonBets array (as captured under wonBets variables). If the bet ID
 exist below notification pops up;
-    "Congratulations on your winning ! your bet is settled."
+    "Congratulations on your winning 🎉! your bet is settled."
 Where the bet ID does not exist under wonBets array, the below notification pops up;
-    "Follow-up initiated! Check back later."
+    "You didn't win the Bet 😞! Thanks for betting with us."
